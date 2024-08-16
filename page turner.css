@@ -1,0 +1,164 @@
+*{
+    padding:0px;
+    margin:0px;}
+    body{
+font-family: "Roboto Slab", serif;}
+.one{
+    background-color: rgb(63, 63, 147);
+    opacity: 80px;
+    color:beige;
+    
+    padding: 13px;
+    font-size: x-large;
+    font-weight: 900;
+    border-color: beige;
+    border-width: 1px;
+    border-style: dotted;
+    border-radius: 8px;
+}
+.two{
+    padding:10px;
+ }
+.three{   
+     padding:20px;
+        margin: 10px;
+        width:200px;
+        background-color: rgb(63, 63, 147);
+        border-radius: 20px;
+        color:beige;
+        cursor: pointer;
+        display: inline-block;
+        vertical-align: top;
+}
+.three:hover{
+    background-color:rgb(158, 48, 48);
+    color: rgb(207, 201, 201);
+    transition: 0.7s;
+}
+.ten{
+    background-color:black;
+    color: white;
+    border-radius: 5px;
+    border-color: white;
+    border-style: double;
+    border-width: 1px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 2px;
+    padding-right: 2px;
+    margin-top: 6px;
+    margin-right: 5px;
+    cursor: default;
+}
+.four{
+    background-color: rgb(63, 63, 147);
+    color:beige;
+   border-radius: 60%;
+   padding-left: 26px;
+   padding-right: 26px;
+   padding-top: 20px;
+   padding-bottom: 20px;
+   font-size: 40px;
+   text-align: top;
+   border: none;
+   position: absolute;
+ bottom:30px;
+ right:65px;
+cursor: pointer;}
+.four:hover{
+    background-color:rgb(158, 48, 48);
+    color: rgb(207, 201, 201);
+    transition: 0.7s;
+}
+.one h1{
+    cursor: default;
+}
+.one h1:hover{
+    color:rgb(219, 98, 98);
+    transition: 0.7s;
+}
+.ten:hover{
+    background-color:beige;
+    color: green;
+    transition: 0.7s;
+}
+.six{
+    background-color: black;
+    opacity: 0.59;
+    position: absolute;
+    width: 100%;
+    top:0;
+    bottom:0;
+    border-radius: 12px;
+    display: none;
+    transition:4s;
+}
+.seven{
+    background-color:green;
+    color: rgb(255, 255, 255);
+    width: 30%;
+    padding: 30px;
+    border-radius: 20px;
+    position: absolute;
+    top:39%;
+    left: 36%;
+    z-index: 2;
+    border-width: 1px;
+    border-style: solid;
+    border-color:beige;
+    opacity: 0.9;
+    display: none;
+    transition:4s;
+}
+.seven input{
+    background: transparent;
+  width: 90%;
+    padding: 5px;
+    margin: 5px;
+    font-size: 14px;
+    border: solid rgb(233, 233, 233) 2px;
+    color:rgb(255, 255, 255);}
+.seven textarea{
+    background: transparent;
+    width: 90%;
+    padding: 5px;
+    margin: 5px;
+    font-size: 14px;
+    border: solid rgb(255, 255, 255) 2px;
+    color:rgb(213, 213, 205);
+}
+.seven input::placeholder{
+    color: rgb(240, 240, 240);
+}
+.seven textarea::placeholder{
+    color: rgb(240, 240, 240);
+}
+.seven button{
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    border-color: white;
+    border-style: double;
+    font-size: 12px;
+    padding-left: 4px;
+    padding-right: 4px;
+    margin-left: 8px;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+.seven button:hover{
+    background-color:beige;
+    color: green;
+    transition: 0.7s;
+}
+.seven h2{
+    margin-bottom: 5px;
+    margin-left: 4px;
+    cursor: default;
+}
+.seven input:focus{
+    outline: none;
+}
+.seven textarea:focus{
+    outline: none;
+}

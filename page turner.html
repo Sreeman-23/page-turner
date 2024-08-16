@@ -1,0 +1,40 @@
+<link rel="stylesheet" href="page turner.css">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PageTurner</title>
+    <link rel="icon" href="download (1).png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="one">
+        <h1>PageTurner</h1>
+    </div>
+    <div class="two">
+        <div class="three">
+          <h2>DUNE</h2>
+          <h4>By:Frank Herbert</h4>
+          <p>"Dune" by Frank Herbert is an epic science fiction novel set on the desert planet Arrakis, focusing on politics, religion, and power struggles over the valuable spice melange.
+           Rating⭐: 4.5/5
+          </p>
+                  <button class="ten" onclick="deletebook(event)">Delete</button></div>
+        </div>
+    <button class="four" id="five">+</button>  <!--id five is for popup-- and six is for overlay -->
+    <div class="six"></div>
+    <div class="seven">
+      <h2>Add book</h2>
+      <form>
+        <input type="text" placeholder="Enter book name:" id="book-title">
+        <input type="text" placeholder="Enter book author:" id="book-author">
+        <textarea placeholder="Book description:" id="book-description"></textarea>
+        <button id="add"> ADD</button>
+        <button id="cancel" onclick="bye(event)">CANCEL</button>
+      </form>
+    </div><!--class seven is for popup box-->
+    <script src="page turner.js"></script>
+</body>
+</html>
